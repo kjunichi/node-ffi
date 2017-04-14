@@ -27,6 +27,7 @@ addons:
 install:
   - PATH="`npm bin`:`npm bin -g`:$PATH"
   # Install dependencies and build
+  - npm install nan@2.3.5
   - npm install
 
 script:
